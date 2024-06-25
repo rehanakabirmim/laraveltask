@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('brand_id');
             $table->string('category_id');
             $table->string('unit_id');
-            $table->string('attachment_id');
+            $table->string('attachable_id');
             $table->string('price');
             $table->string('qty');
             $table->string('alert_qty');

@@ -36,6 +36,6 @@ class Product extends Model
 
     public function attachments()
     {
-        return $this->morphMany(Attachment::class);
+        return $this->morphMany(Attachment::class, 'attachable_id');
     }
 }
